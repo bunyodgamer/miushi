@@ -1,3 +1,4 @@
+@import"variables"; 
 *{
     margin: 0;
     padding: 0;
@@ -22,4 +23,6 @@
     margin: 0 auto;
     }
 }
-@import"header"
+@import "mixin";
+@import"header";
+@import"variables";

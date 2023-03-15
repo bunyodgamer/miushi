@@ -20,7 +20,7 @@
 
 <body>
     <div class="wrappeer">
-        <header class="header">
+        <header class="header" id="header">
             <div class="container">
                 <section class="header-nav">
                     <input type="radio" name="check" id="hcheck" class="header-nav__check">
@@ -34,8 +34,8 @@
                     </div>
 
                     <div class="header-nav-menu">
-                        <input type="radio" name="check" id="mcheck" class="header-nav-menu__check" checked="">
-                        <label for="mcheck" class="header-nav-menu__lab">
+                        <input type="radio" name="check" id="mcheck" class="header-nav-menu__check" checked>
+                        <label for="mcheck" class="header-nav-menu__lab" class="header-nav-menu__lab">
                             <img src="images/headerX.png" alt="close">
                         </label>
 
@@ -86,7 +86,347 @@
                     </div>
                 </section>
             </div>
+
+            <section class="header-menu">
+                <div class="container">
+                    <nav class="header-menu-links">
+                        <ul class="header-menu-links-list">
+                            <li><a href="#" class="header-menu-links-list__item">меню</a>
+                                <ul class="header-menu-links-sub">
+                                    <li><a href="#" class="header-menu-links-sub__item">акции и скидки</a></li>
+                                    <li><a href="#" class="header-menu-links-sub__item">доставка и оплата</a></li>
+                                    <li><a href="#" class="header-menu-links-sub__item">новости</a></li>
+                                    <li><a href="#" class="header-menu-links-sub__item">контакты</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="header-menu-links-list__item">акции и скидки</a></li>
+                            <li><a href="#" class="header-menu-links-list__item">доставка и оплата </a></li>
+                            <li><a href="#" class="header-menu-links-list__item">новости</a></li>
+                            <li><a href="#" class="header-menu-links-list__item">контакты</a></li>
+                        </ul>
+                        <span class="header-menu-links-el">
+                            <a href="#" class="header-menu-links-el__item">
+                                <img src="images/headerUser.png" alt="user"> кабинет
+                            </a>
+                            <a href="#" class="header-menu-links-el__item">
+                                <span>2</span>
+                                <img src="images/headerKorzina.png" alt="korzina">корзина
+                            </a>
+                        </span>
+                    </nav>
+
+                </div>
+            </section>
+
+
+            <section class="header-slider">
+                <div class="header-slider-inner">
+                    <div class="header-slider-inner-block">
+                        <div class="header-slider-inner-block-img">
+                            <img src="images/headerSliderImg.png" alt="slide">
+                        </div>
+                        <span class="header-slider-inner-block__price">
+                            <p>скидка</p>
+                            <p> 15%</p>
+                        </span>
+                        <p class="header-slider-inner-block__head">Счастливые часы</p>
+                        <p class="header-slider-inner-block__time">с 11:00 до 16:00 в будние дни</p>
+                        <a href="#" class="header-slider-inner-block__info">подробнее</a>
+                    </div>
+
+                    <div class="header-slider-inner-block">
+                        <div class="header-slider-inner-block-img">
+                            <img src="images/headerSliderImg.png" alt="slide">
+                        </div>
+                        <span class="header-slider-inner-block__price">
+                            <p>скидка</p>
+                            <p> 15%</p>
+                        </span>
+                        <p class="header-slider-inner-block__head">Счастливые часы</p>
+                        <p class="header-slider-inner-block__time">с 11:00 до 16:00 в будние дни</p>
+                        <a href="#" class="header-slider-inner-block__info">подробнее</a>
+                    </div>
+
+                    <div class="header-slider-inner-block">
+                        <div class="header-slider-inner-block-img">
+                            <img src="images/headerSliderImg.png" alt="slide">
+                        </div>
+                        <span class="header-slider-inner-block__price">
+                            <p>скидка</p>
+                            <p> 15%</p>
+                        </span>
+                        <p class="header-slider-inner-block__head">Счастливые часы</p>
+                        <p class="header-slider-inner-block__time">с 11:00 до 16:00 в будние дни</p>
+                        <a href="#" class="header-slider-inner-block__info">подробнее</a>
+                    </div>
+                </div>
+
+            </section>
         </header>
+ <main>
+    <div class="container container__reset">
+        <section class="set block">
+            <div class="set-head head-title">
+                <span class="title">Сеты</span>
+            </div>
+            <div class="set-slider">
+
+                <div class="set-slider-el slide-el">
+                    <div class="slide-block">
+                        <img src="images/setPhoto1.png" alt="set">
+                        <div class="slide-block-inner">
+                            <div class="slide-block-inner-head">
+                                <p>Сеть №10</p>
+                                <p>72 шт. | 1560 г. | 1700 Kkal</p>
+                            </div>
+                            <div class="slide-block-inner-price">
+                                <span>2050<sup>руб</sup></span>
+                                <span class="slide-block-inner-price-num">
+                                    <span href="#"><img src="images/minus.png" alt="min"></span>
+                                    <span>1</span>
+                                    <span href="#"><img src="images/plus.png" alt="plus"></span>
+                                </span>
+                            </div>
+                            <a href="#" class="slide-block-inner__link">в корзину</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="set-slider-el slide-el">
+                    <div class="slide-block">
+                        <img src="images/setPhoto2.png" alt="set">
+                        <div class="slide-block-inner">
+                            <div class="slide-block-inner-head">
+                                <p>Сеть №8</p>
+                                <p>24 шт. | 960 г. | 800 Kkal</p>
+                            </div>
+                            <div class="slide-block-inner-price">
+                                <span>1590<sup>руб</sup></span>
+                                <span class="slide-block-inner-price-num">
+                                    <span href="#"><img src="images/minus.png" alt="min"></span>
+                                    <span>1</span>
+                                    <span href="#"><img src="images/plus.png" alt="plus"></span>
+                                </span>
+                            </div>
+                            <a href="#" class="slide-block-inner__link">в корзину</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="set-slider-el slide-el">
+                    <div class="set-slider-block slide-block">
+                        <img src="images/setPhoto3.png" alt="set">
+                        <div class="slide-block-inner">
+                            <div class="slide-block-inner-head">
+                                <p>Минисеть №5</p>
+                                <p>14 шт. | 450 г. | 400 Kkal</p>
+                            </div>
+                            <div class="slide-block-inner-price">
+                                <span>510<sup>руб</sup></span>
+                                <span class="slide-block-inner-price-num">
+                                    <span href="#"><img src="images/minus.png" alt="min"></span>
+                                    <span>1</span>
+                                    <span href="#"><img src="images/plus.png" alt="plus"></span>
+                                </span>
+                            </div>
+                            <a href="#" class="slide-block-inner__link">в корзину</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="set-slider-el slide-el">
+                    <div class="slide-block">
+                        <img src="images/setPhoto4.png" alt="set">
+                        <div class="slide-block-inner">
+                            <div class="slide-block-inner-head">
+                                <p>Сеть №6</p>
+                                <p>16 шт. | 460 г. | 490 Kkal</p>
+                            </div>
+                            <div class="slide-block-inner-price">
+                                <span>400<sup>руб</sup></span>
+                                <span class="slide-block-inner-price-num">
+                                    <span href="#"><img src="images/minus.png" alt="min"></span>
+                                    <span>1</span>
+                                    <span href="#"><img src="images/plus.png" alt="plus"></span>
+                                </span>
+                            </div>
+                            <a href="#" class="slide-block-inner__link">в корзину</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="set-slider-el slide-el">
+                    <div class="slide-block">
+                        <img src="images/setPhoto1.png" alt="set">
+                        <div class="slide-block-inner">
+                            <div class="slide-block-inner-head">
+                                <p>Сеть №10</p>
+                                <p>72 шт. | 1560 г. | 1700 Kkal</p>
+                            </div>
+                            <div class="slide-block-inner-price">
+                                <span>2050<sup>руб</sup></span>
+                                <span class="slide-block-inner-price-num">
+                                    <span href="#"><img src="images/minus.png" alt="min"></span>
+                                    <span>1</span>
+                                    <span href="#"><img src="images/plus.png" alt="plus"></span>
+                                </span>
+                            </div>
+                            <a href="#" class="slide-block-inner__link">в корзину</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="set-slider-el slide-el">
+                    <div class="slide-block">
+                        <img src="images/setPhoto2.png" alt="set">
+                        <div class="slide-block-inner">
+                            <div class="slide-block-inner-head">
+                                <p>Сеть №8</p>
+                                <p>24 шт. | 960 г. | 800 Kkal</p>
+                            </div>
+                            <div class="slide-block-inner-price">
+                                <span>1590<sup>руб</sup></span>
+                                <span class="slide-block-inner-price-num">
+                                    <span href="#"><img src="images/minus.png" alt="min"></span>
+                                    <span>1</span>
+                                    <span href="#"><img src="images/plus.png" alt="plus"></span>
+                                </span>
+                            </div>
+                            <a href="#" class="slide-block-inner__link">в корзину</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="set-slider-el slide-el">
+                    <div class="set-slider-block slide-block">
+                        <img src="images/setPhoto3.png" alt="set">
+                        <div class="slide-block-inner">
+                            <div class="slide-block-inner-head">
+                                <p>Минисеть №5</p>
+                                <p>14 шт. | 450 г. | 400 Kkal</p>
+                            </div>
+                            <div class="slide-block-inner-price">
+                                <span>510<sup>руб</sup></span>
+                                <span class="slide-block-inner-price-num">
+                                    <span href="#"><img src="images/minus.png" alt="min"></span>
+                                    <span>1</span>
+                                    <span href="#"><img src="images/plus.png" alt="plus"></span>
+                                </span>
+                            </div>
+                            <a href="#" class="slide-block-inner__link">в корзину</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="set-slider-el slide-el">
+                    <div class="slide-block">
+                        <img src="images/setPhoto4.png" alt="set">
+                        <div class="slide-block-inner">
+                            <div class="slide-block-inner-head">
+                                <p>Сеть №6</p>
+                                <p>16 шт. | 460 г. | 490 Kkal</p>
+                            </div>
+                            <div class="slide-block-inner-price">
+                                <span>400<sup>руб</sup></span>
+                                <span class="slide-block-inner-price-num">
+                                    <span href="#"><img src="images/minus.png" alt="min"></span>
+                                    <span>1</span>
+                                    <span href="#"><img src="images/plus.png" alt="plus"></span>
+                                </span>
+                            </div>
+                            <a href="#" class="slide-block-inner__link">в корзину</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="set-slider-el slide-el">
+                    <div class="slide-block">
+                        <img src="images/setPhoto1.png" alt="set">
+                        <div class="slide-block-inner">
+                            <div class="slide-block-inner-head">
+                                <p>Сеть №10</p>
+                                <p>72 шт. | 1560 г. | 1700 Kkal</p>
+                            </div>
+                            <div class="slide-block-inner-price">
+                                <span>2050<sup>руб</sup></span>
+                                <span class="slide-block-inner-price-num">
+                                    <span href="#"><img src="images/minus.png" alt="min"></span>
+                                    <span>1</span>
+                                    <span href="#"><img src="images/plus.png" alt="plus"></span>
+                                </span>
+                            </div>
+                            <a href="#" class="slide-block-inner__link">в корзину</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="set-slider-el slide-el">
+                    <div class="slide-block">
+                        <img src="images/setPhoto2.png" alt="set">
+                        <div class="slide-block-inner">
+                            <div class="slide-block-inner-head">
+                                <p>Сеть №8</p>
+                                <p>24 шт. | 960 г. | 800 Kkal</p>
+                            </div>
+                            <div class="slide-block-inner-price">
+                                <span>1590<sup>руб</sup></span>
+                                <span class="slide-block-inner-price-num">
+                                    <span href="#"><img src="images/minus.png" alt="min"></span>
+                                    <span>1</span>
+                                    <span href="#"><img src="images/plus.png" alt="plus"></span>
+                                </span>
+                            </div>
+                            <a href="#" class="slide-block-inner__link">в корзину</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="set-slider-el slide-el">
+                    <div class="set-slider-block slide-block">
+                        <img src="images/setPhoto3.png" alt="set">
+                        <div class="slide-block-inner">
+                            <div class="slide-block-inner-head">
+                                <p>Минисеть №5</p>
+                                <p>14 шт. | 450 г. | 400 Kkal</p>
+                            </div>
+                            <div class="slide-block-inner-price">
+                                <span>510<sup>руб</sup></span>
+                                <span class="slide-block-inner-price-num">
+                                    <span href="#"><img src="images/minus.png" alt="min"></span>
+                                    <span>1</span>
+                                    <span href="#"><img src="images/plus.png" alt="plus"></span>
+                                </span>
+                            </div>
+                            <a href="#" class="slide-block-inner__link">в корзину</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="set-slider-el slide-el">
+                    <div class="slide-block">
+                        <img src="images/setPhoto4.png" alt="set">
+                        <div class="slide-block-inner">
+                            <div class="slide-block-inner-head">
+                                <p>Сеть №6</p>
+                                <p>16 шт. | 460 г. | 490 Kkal</p>
+                            </div>
+                            <div class="slide-block-inner-price">
+                                <span>400<sup>руб</sup></span>
+                                <span class="slide-block-inner-price-num">
+                                    <span href="#"><img src="images/minus.png" alt="min"></span>
+                                    <span>1</span>
+                                    <span href="#"><img src="images/plus.png" alt="plus"></span>
+                                </span>
+                            </div>
+                            <a href="#" class="slide-block-inner__link">в корзину</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+ </main>
     </div>
 
     <script src="js/jquery-1.12.4.min.js"></script>
